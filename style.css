@@ -75,12 +75,19 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
 }
 
 .project_names{
     display: flex;
     padding: 0 250px;
     justify-content: space-between;
+    margin-top: 40px;
+}
+.project h1{
+    color: #1f2937;
+    font-size: 36px;
 }
 
 .project_names .box{
@@ -90,6 +97,38 @@ body{
     border-radius: 10px; /* Adjust the radius as needed */
 }
 
-.project_names .name{
+.project_names .name {
     width: 150px;
+    margin-right: 55px; /* Adjust the margin as needed to control the space between boxes */
+}
+
+.name p{
+    text-align: center;
+}
+
+.message{
+    height: 400px;
+    background-color: #e5e7eb;
+}
+.message p{
+    text-align: center;
+    padding-top: 76px;
+    font-size: 36px;
+    font-style: italic;
+    width: 900px;
+    margin: auto;
+}
+
+.message .text{
+    color: #1f2937;
+}
+
+.conatiner{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    width: 800px;
+    height: 100px;
+    margin: auto;
+    background-color: #3882f6;
 }
