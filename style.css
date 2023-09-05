@@ -123,12 +123,39 @@ body{
     color: #1f2937;
 }
 
+.contact {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 300px;
+  }
+  
 .conatiner{
     display: flex;
-    justify-content: space-around;
-    padding-top: 40px;
-    width: 800px;
     height: 100px;
-    margin: auto;
+    width: 800px;
     background-color: #3882f6;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    color: white;
 }
+
+.your-button-class {
+    border: 2px solid white; /* Set the border width and color */
+    /* Other button styles if needed */
+    background-color: #3882f6;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: white;
+  }
+
+.footer{
+    background-color: #1F2937;
+    height: 70px;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
